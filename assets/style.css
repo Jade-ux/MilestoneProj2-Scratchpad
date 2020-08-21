@@ -1,0 +1,6 @@
+/*----------------------------------Map*/
+
+div#map {
+    min-height: 360px;
+    border: #000000 solid 2px;
+    }
