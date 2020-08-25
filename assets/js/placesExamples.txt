@@ -1,0 +1,14 @@
+//taken from here: https://developers.google.com/places/web-service/search
+
+https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=AIzaSyAbcTamNPI1Pe4MAqwMqq6JYO3z_zwwwuY
+
+//Need to define the starting point as a variable and then pass it into this request 
+
+//This searches by type eg. cafe or restaurant. There has to be a longitude and latitude location.
+/*
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&type=restaurant&keyword=cruise&key=AIzaSyAbcTamNPI1Pe4MAqwMqq6JYO3z_zwwwuY
+*/
+
+/*
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&type=restaurant&key=AIzaSyAbcTamNPI1Pe4MAqwMqq6JYO3z_zwwwuY
+*/

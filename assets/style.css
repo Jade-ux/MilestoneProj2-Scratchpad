@@ -4,3 +4,14 @@ div#map {
     min-height: 360px;
     border: #000000 solid 2px;
     }
+
+.input-box {
+    min-height: 30px;
+    min-width: 40%;
+}
+
+div#data {
+    min-height: 50px;
+    min-width: 40%;
+    border: #000000 solid 1px;
+}
