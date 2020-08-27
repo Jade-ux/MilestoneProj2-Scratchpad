@@ -13,29 +13,39 @@
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
   crossorigin="anonymous"></script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcTamNPI1Pe4MAqwMqq6JYO3z_zwwwuY&callback=initAutocomplete&libraries=geometry,places&v=weekly" defer></script>
-      <script src="assets/js/start-point.js"></script>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbcTamNPI1Pe4MAqwMqq6JYO3z_zwwwuY&callback=initAutocomplete&libraries=geometry,places&v=weekly" defer></script>
+      <script src="assets/js/maps.js"></script>
 </head>
 
 <body>
 
 
 
-<h3>Enter your town or city</h3>
-    <input
-      id="start-here"
-      class="input-box"
-      type="text"
-      placeholder="Set your starting point here"
-    />
+<h3>Choose what you want to see</h3>
 
     <br>
+ 
+        <input
+      id="starting-point"
+      type="text"
+      placeholder="You can reset your starting point here"
+    />
 
+        <input
+      id="place-search"
+      type="text"
+      placeholder="search place type"
+    />
 <br>
 
-<button id="see-map-button"><a href="map.html">See your map</a></button>
+<button onclick="showPlace('hotels')">Hotels</button>
+<button onclick="showPlace('restaurants')">Restaurants</button>
+<button onclick="showPlace('amusementParks')">Amusement Parks</button>
 
-
+<div id="map"></div>
+<br>
+<br>
+<button id="back-home"><a href="index.html">back to form</a></button>
 <footer></footer>    
 
 </body>
